@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>To-Do List</h1>
+    </header>
+    <main>
+        <section id="task-form">
+            <h2>Add a New Task</h2>
+            <form id="new-task-form">
+                <input type="text" id="task-title" placeholder="Task Title" required>
+                <input type="date" id="task-deadline" required>
+                <select id="task-priority">
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+                <input type="text" id="task-label" placeholder="Label">
+                <button type="submit">Add Task</button>
+            </form>
+        </section>
+        <section id="tasks">
+            <h2>Tasks</h2>
+            <ul id="task-list">
+                <!-- Task items will be listed here -->
+            </ul>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
