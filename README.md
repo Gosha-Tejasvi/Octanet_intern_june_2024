@@ -1,2 +1,2 @@
-# Octanet_intern_june_2024
+# Octanet_june_2024_intern
 this repository consistes of tasks assigned during octanet services internship
